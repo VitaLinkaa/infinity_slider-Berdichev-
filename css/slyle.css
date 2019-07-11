@@ -1,0 +1,45 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow:-1px -1px #FFF,
+                -2px -2px #FFF,
+                -1px 1px #FFF,
+                -2px 2px #FFF,
+                 1px 1px #FFF,
+                 2px 2px #FFF,
+                 1px -1px #FFF,
+                 2px -2px #FFF,
+                -3px -3px 2px #BBB,
+                -3px 3px 2px #BBB,
+                 3px 3px 2px #BBB,
+                3px -3px 2px #BBB;
+    color: steelblue;
+    transition: all 1s;
+    margin-bottom: 70px;
+}
+
+h1:hover {
+  color: lightslategray;
+  cursor: pointer;
+  }
+
+#slide {
+    width: 452px;
+    height: 272px;
+    border-radius: 10px;
+    
+    margin: 0 auto;
+    position: relative;
+}
+
+.slide-single {
+    border-radius: 30px;
+    border: 1px solid lightslategray;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    width: 452px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease 1s;
+}
